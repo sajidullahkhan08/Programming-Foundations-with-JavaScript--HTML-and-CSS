@@ -2,15 +2,18 @@
  <html>
   <head>
     <title>My Interests Page</title>
+    <link href="MyInterests.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <div>
+    <div id="main-container">
+    <div id="about">
       <h1>My Interests - Sajidullah Khan</h1>
       <h2>About Me</h2>
-      <img src="https://avatars.githubusercontent.com/u/199259849?v=4" alt="My Profile Picture" width="150">
+      <img class="profile-img" src="https://avatars.githubusercontent.com/u/199259849?v=4" alt="My Profile Picture" width="140">
       <p>My name is Sajidullah Khan. I am a <b>passionate student</b> of <em>Computer Science</em> who also deeply explores questions about truth, existence, and the rational foundations of Islam. I believe in combining rigorous logic with spiritual authenticity.</p>
-      
+    </div>
+   <div>   
       <h2>Philosophical & Religious Interests</h2>
       <ul>
         <li>Nature of Reality and Truth</li>
@@ -19,8 +22,8 @@
         <li>Refuting Neoplatonic and Akbari Metaphysics</li>
         <li>Interfaith Dialogue and Comparative Religion</li>
       </ul>
-      <a href="https://www.abuaminaelias.com/dailyhadithonline/" target="_blank">Daily Hadith – Authentic Hadith Collections</a> <br>
-      <a href="https://quran.com" target="_blank">Read the Quran Online</a>
+      <a class="external-link" href="https://www.abuaminaelias.com/dailyhadithonline/" target="_blank">Daily Hadith – Authentic Hadith Collections</a> <br>
+      <a class="external-link" href="https://quran.com" target="_blank">Read the Quran Online</a>
       
       <h2>Logic & Rational Inquiry</h2>
       <ul>
@@ -51,8 +54,8 @@
           </ul>
         </li>
       </ul>
-      <a href="https://plato.stanford.edu/" target="_blandk">Stanford Encyclopedia of Philosophy</a> <br>
-      <a href="https://www.lesswrong.com/" target="_blank">Rational Thinking Forum - LessWrong</a>
+      <a class="external-link" href="https://plato.stanford.edu/" target="_blandk">Stanford Encyclopedia of Philosophy</a> <br>
+      <a class="external-link" href="https://www.lesswrong.com/" target="_blank">Rational Thinking Forum - LessWrong</a>
       
       <h2>Technology & Programming</h2>
       <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C++ Logo" width="100"/>
@@ -64,7 +67,7 @@
         <li>AI Tools and Practical Coding Projects</li>
       </ul>
       
-      <a href="https://github.com/SajidullahKhan" target="_blank">My GitHub Projects</a> <br>
+      <a class="external-link" href="https://github.com/SajidullahKhan" target="_blank">My GitHub Projects</a> <br>
       <a href="https://cplusplus.com/" target="_blank">C++ Documentation</a> <br>
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs – Learn HTML</a>
       
@@ -101,10 +104,10 @@
     </table>
     
     <div>
-      <h2>Current Project: Digital Qat Game</h2>
+      <h2 id="qat-project">Current Project: Digital Qat Game</h2>
     <p>I am working on a digital version of the traditional Pashtun game "Qat" (Nine Men's Morris). The project includes AI opponents, online multiplayer, and Pashto/Urdu/English support, aiming to preserve cultural heritage through modern technology.</p>
       <br>
-      <a href="https://en.wikipedia.org/wiki/Nine_Men%27s_Morris" target="_blank">Learn More About Nine Men’s Morris</a>
+      <a class="external-link" href="https://en.wikipedia.org/wiki/Nine_Men%27s_Morris" target="_blank">Learn More About Nine Men’s Morris</a>
     
     <h2>Thinkers & Books I Study</h2>
     <ul>
@@ -131,7 +134,8 @@
         <li>Present calmly and respectfully</li>
       </ol>
       
-      <footer>Created by Sajidullah Khan — HTML Practice Page</footer>
+      <footer id="footer">Created by Sajidullah Khan — HTML Practice Page</footer>
     </div>
+   </div>
   </body>
  </html>
