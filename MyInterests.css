@@ -2,11 +2,13 @@ body {
   background-color: beige;
   font-family: Arial, sans-serif;
   margin: 25px;
+  transition: background-color 0.4s, color 0.4s;
 }
 
 h1 {
   color: darkgreen;
   text-align: center;
+  text-transform: uppercase;
   font-size: 36px;
 }
 
@@ -32,9 +34,10 @@ ul {
   border-radius: 50%;
   border: 3px solid #ccc;
   width: 140px;
+  transition: transform 0.3s;
 }
 .profile-img:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 .external-link {
@@ -51,24 +54,52 @@ ul {
   border: 1px solid #ddd;
   border-radius: 10px;
 }
-
-#qat-project {
-  background-color: #FBEC5D;
-  border-left: 4px solid #ffa500;
-  padding-left: 10px;
+#project {
+  border-radius: 8px;
+  padding: 14px;
 }
 
 #footer {
   text-align: center;
-  padding-top: 25px;
   font-size: 14px;
   background-color: #5E5E5E;
   color: white;
   padding: 10px;
+  margin-top: 40px;
 }
 
 #main-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.btn {
+  font-size: 16px;
+  color: white;
+  background-color: darkgreen;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: green;
+}
+
+.bg-lightblue {
+  background-color: lightblue !important;
+}
+.bg-lightpink {
+  background-color: lightpink !important;
+}
+
+.button-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fancy-font {
+  font-family: "Courier New", monospace;
 }
